@@ -1,0 +1,381 @@
+[
+  {
+    "id": "intro_1",
+    "category": "👋 Prise de Contact",
+    "title": "Présentation Initiale",
+    "content": "Bonjour ! 👋\nJe suis [Votre Prénom] de l’équipe WhatsApp Photomaton®.\nJe prends connaissance de votre situation et je vais vous accompagner pour résoudre ce point. 📸",
+    "keywords": [
+      "bonjour",
+      "accueil",
+      "présentation",
+      "début"
+    ]
+  },
+  {
+    "id": "qual_cabine",
+    "category": "🔍 Diagnostic (Questions)",
+    "title": "Demande de Numéro de Machine",
+    "keywords": [
+      "numéro",
+      "machine",
+      "cabine",
+      "chiffres",
+      "historique"
+    ],
+    "content": "Pourriez-vous me transmettre le numéro à 4 inscrit sur la façade ou l'écran de la cabine ?\nCela me permettra d'interroger la machine à distance. 🛠️"
+  },
+  {
+    "id": "qual_photo",
+    "category": "🔍 Diagnostic (Questions)",
+    "title": "Preuve Visuelle du Défaut",
+    "content": "Afin de mieux visualiser le défaut d'impression, de cadrage ou de couleur, pourriez-vous m'envoyer une photo de votre planche de photos ici même ? 📱",
+    "keywords": [
+      "preuve",
+      "visuelle",
+      "photo",
+      "défaut",
+      "image",
+      "planche",
+      "imprimé"
+    ]
+  },
+  {
+    "id": "qual_technique",
+    "category": "🔍 Diagnostic (Questions)",
+    "title": "Précisions sur la Panne",
+    "content": "Pour transmettre un rapport précis à nos techniciens, pouvez-vous m'indiquer :\n- À quelle heure l'incident s'est-il produit ? 🕒\n- Quel message d'erreur s'affichait sur l'écran ? ⚠️",
+    "keywords": [
+      "heure",
+      "erreur",
+      "écran",
+      "blocage",
+      "technique",
+      "panne",
+      "diagnostic"
+    ]
+  },
+  {
+    "id": "qual_paiement",
+    "category": "🔍 Diagnostic (Questions)",
+    "title": "Précisions sur le Paiement",
+    "content": "Pour retrouver votre transaction, pourriez-vous m'indiquer :\n- Le mode de paiement : Espèces (pièces/billets), Carte Bancaire ou Sans Contact ? 💳\n- Le montant exact prélevé/inséré ? 💶",
+    "keywords": [
+      "paiement",
+      "carte",
+      "espèces",
+      "ticket",
+      "montant"
+    ]
+  },
+  {
+    "id": "qual_ants",
+    "category": "🔍 Diagnostic (Questions)",
+    "title": "Précisions sur le Dossier e-Photo",
+    "content": "Pour vérifier l'état de votre e-Photo, merci de m'indiquer :\n- Votre code e-Photo (les 22 caractères sur la planche) ? 🔢\n- Le site utilisé (ANTS ou ANEF) ? 💻\n- Le motif exact de rejet indiqué par le site ? ❌",
+    "keywords": [
+      "code",
+      "e-photo",
+      "ants",
+      "anef",
+      "date",
+      "rejet",
+      "motif"
+    ]
+  },
+  {
+    "id": "pay_empreinte",
+    "category": "💳 Paiement & Monnaie",
+    "title": "Inquiétude sur le débit (Empreinte Bancaire)",
+    "content": "Rassurez-vous : en cas de non-impression, aucun débit réel n'est effectué. \nLa ligne que vous voyez est une \"pré-autorisation\" temporaire. Elle sera automatiquement annulée par votre banque sous quelques jours (généralement 3 à 5 jours) et disparaîtra du relevé. ✅",
+    "keywords": [
+      "débit",
+      "banque",
+      "bancaire",
+      "empreinte",
+      "pris",
+      "non-impression",
+      "autorisation"
+    ]
+  },
+  {
+    "id": "pay_wash",
+    "category": "💳 Paiement & Monnaie",
+    "title": "Débit suspect : Le cas \"Wash.ME / Laverie\"",
+    "content": "Il est vrai que cela porte à confusion : les machines Wash.ME (Laveries) et Photomaton® appartiennent à la même entreprise ! 🤝\nLe débit \"Photomaton\" sur votre relevé correspond en réalité à la transaction effectuée sur notre laverie Wash.ME la plus proche de chez vous. ✅",
+    "keywords": [
+      "laverie",
+      "wash",
+      "wash.me",
+      "relevé",
+      "débit inconnu",
+      "qui est"
+    ]
+  },
+  {
+    "id": "pay_monnaie",
+    "category": "💳 Paiement & Monnaie",
+    "title": "Refus de rendu de monnaie",
+    "content": "Nos machines Photomaton® indiquent sur l'écran d'accueil qu'elles ne rendent pas la monnaie (appoint nécessaire).\nAfin d'éviter tout désagrément, nous préconisons de préparer l'appoint ou de privilégier le paiement par carte bancaire. 🪙",
+    "keywords": [
+      "monnaie",
+      "rendu",
+      "appoint",
+      "pièces",
+      "billets"
+    ]
+  },
+  {
+    "id": "remb_form",
+    "category": "💸 Remboursement",
+    "title": "Étape 1 : Lien du Formulaire",
+    "content": "Nous sommes navrés pour ce contretemps. Pour analyser votre demande et procéder au remboursement, merci de remplir notre formulaire officiel :\n\n👉 [Lien du Formulaire de Réclamation] 🔗\n\nNos équipes reviendront vers vous sous peu. 🚀",
+    "keywords": [
+      "remboursement",
+      "formulaire",
+      "procédure",
+      "rembourser",
+      "réclamation"
+    ]
+  },
+  {
+    "id": "remb_rib",
+    "category": "💸 Remboursement",
+    "title": "Étape 2 : Demande de RIB Sécurisée",
+    "content": "Pour procéder au virement de votre indemnisation sur votre compte d'origine en toute sécurité, merci de nous transmettre votre relevé d'identité bancaire via ce lien sécurisé (normes RGPD) :\n👉 [Lien Formulaire RIB Sécurisé] 🔒",
+    "keywords": [
+      "rib",
+      "iban",
+      "bic",
+      "bancaire",
+      "sécurité",
+      "indemnisation",
+      "virement"
+    ]
+  },
+  {
+    "id": "remb_refus",
+    "category": "💸 Remboursement",
+    "title": "Refus (Vérifications techniques ok)",
+    "content": "Après analyse stricte de l'historique de l'appareil à l'heure signalée, les journaux confirment qu'un cycle de prise de vue et d'impression a bien été achevé.\nAucune anomalie n'ayant été détectée, nous ne pouvons procéder à un remboursement réglementaire sur ce dossier. 📉",
+    "keywords": [
+      "refus",
+      "non",
+      "analyse",
+      "historique",
+      "pas de remboursement",
+      "machine ok"
+    ]
+  },
+  {
+    "id": "ants_delai",
+    "category": "🆔 Dossier e-Photo / ANTS",
+    "title": "Délai d'Activation (48h/72h)",
+    "content": "Pour que votre signature numérique soit transférée sur les serveurs de l'État (ANTS / ANEF), un délai technique est requis. ⏳\nMerci de renouveler votre tentative dans 48H/72H maximum.",
+    "keywords": [
+      "code",
+      "e-photo",
+      "ants",
+      "anef",
+      "activation",
+      "attente",
+      "48h",
+      "72h",
+      "délai"
+    ]
+  },
+  {
+    "id": "ants_astuce",
+    "category": "🆔 Dossier e-Photo / ANTS",
+    "title": "Astuces de Saisie (Erreurs courantes)",
+    "content": "💡 Quelques conseils pour débloquer votre saisie sur le site national :\n● Videz le cache de votre navigateur ou changez d'appareil (PC plutôt que Tél).\n● Utilisez uniquement des Majuscules.\n● Attention à la lettre O / chiffre Zéro (0), et à la lettre I / chiffre Un (1).",
+    "keywords": [
+      "saisie",
+      "erreur",
+      "lettre",
+      "chiffre",
+      "majuscule",
+      "bug",
+      "marche pas"
+    ]
+  },
+  {
+    "id": "ants_erreur_choix",
+    "category": "🆔 Dossier e-Photo / ANTS",
+    "title": "Mauvais choix d'option (Papier au lieu de e-Photo)",
+    "content": "Après vérification, vous avez malheureusement sélectionné \"Photo d'identité Officielle\" traditionnelle au lieu de l'option numérique \"e-Photo (Permis/Titre de séjour)\".\nLa machine n'a donc généré aucune signature électronique. Vous devrez refaire une tentative avec le bon bouton d'accueil. 🙏",
+    "keywords": [
+      "pas de code",
+      "oublié",
+      "erreur bouton",
+      "papier",
+      "pas de signature",
+      "trompé"
+    ]
+  },
+  {
+    "id": "ants_expire",
+    "category": "🆔 Dossier e-Photo / ANTS",
+    "title": "Code Expiré (Délai 6 mois)",
+    "content": "Hélas, votre code e-Photo est désormais périmé. ⏳\nLa réglementation stricte de l'État impose une date de validité de 6 mois pour chaque code, pour un usage unique. Il faudra refaire de nouvelles photos en cabine. 📸",
+    "keywords": [
+      "expiré",
+      "plus valide",
+      "6 mois",
+      "périmé",
+      "refait",
+      "ancien"
+    ]
+  },
+  {
+    "id": "ants_relais",
+    "category": "🆔 Dossier e-Photo / ANTS",
+    "title": "Bug coté ANTS (Préfecture à contacter)",
+    "content": "Votre code a pourtant bien été validé et transmis à l'administration de l'État.\nLe blocage actuel se situe sur la plateforme gouvernementale (ANTS/ANEF). Pour débloquer la procédure, il vous faut contacter l'assistance de ce service :\n📞 ANTS : 34 00\n📞 ANEF : 0806 001 620",
+    "keywords": [
+      "suivi",
+      "en cours",
+      "bloqué",
+      "préfecture",
+      "anef",
+      "qui appeler"
+    ]
+  },
+  {
+    "id": "info_tarifs",
+    "category": "📍 Infos & Tarifs",
+    "title": "Liste des Tarifs Usuels",
+    "content": "Voici nos tarifs indicatifs standard :\n📸 Identité officielles : 8 €\n🆔 e-Photo ANTS certifiée : 8 €\n🎨 Photos Fun : Dès 3 €\n🖼️ Tirage Smartphone : Dès 0,35 €\n*(Note : Peut varier selon l'emplacement).* ✨",
+    "keywords": [
+      "prix",
+      "tarif",
+      "combien ça coûte",
+      "coûte",
+      "euros",
+      "8"
+    ]
+  },
+  {
+    "id": "info_demat",
+    "category": "📍 Infos & Tarifs",
+    "title": "Refus d'envoi de fichier numérique (Email/Clé USB)",
+    "content": "Pour des impératifs légaux et RGPD, nos cabines détruisent instantanément votre photo, il nous est donc techniquement et légalement impossible de vous transmettre ce fichier final par messagerie, email ou clé. 📵",
+    "keywords": [
+      "numérique",
+      "fichier",
+      "email",
+      "mail",
+      "télécharger",
+      "clé usb",
+      "téléchargement"
+    ]
+  },
+  {
+    "id": "info_locator",
+    "category": "📍 Infos & Tarifs",
+    "title": "Localiser une cabine",
+    "content": "Vous pouvez localiser le Photomaton® le plus proche proposant les services voulus (Visa, e-Photo..) via notre Store Locator : \n👉 https://www.photomaton.com/fr-fr/trouver-un-photomaton 🗺️",
+    "keywords": [
+      "trouver",
+      "où",
+      "localisation",
+      "adresse",
+      "cabine",
+      "recherche"
+    ]
+  },
+  {
+    "id": "info_facture",
+    "category": "📍 Infos & Tarifs",
+    "title": "Délivrance de Facture",
+    "content": "Afin que notre service comptabilité génère votre facture, merci de remplir rapidement ce mini-formulaire en ligne comportant toutes les références requises :\n👉 [Lien Demande de Facture] 📝",
+    "keywords": [
+      "facture",
+      "justificatif",
+      "comptabilité",
+      "entreprise",
+      "tva"
+    ]
+  },
+  {
+    "id": "tech_signalement",
+    "category": "🛠️ Technique & Pannes",
+    "title": "Remerciement pour Signalement",
+    "content": "Un immense merci de votre vigilance ! 🙏\nGrâce à votre signalement précis, notre Service Technique vient d'être alerté. Une intervention est planifiée pour remettre ce Photomaton en ligne rapidement ! 🔧",
+    "keywords": [
+      "panne",
+      "cassé",
+      "hs",
+      "hors service",
+      "marche pas",
+      "signalement"
+    ]
+  },
+  {
+    "id": "tech_resolu",
+    "category": "🛠️ Technique & Pannes",
+    "title": "Incident Résolu",
+    "content": "Excellente nouvelle ! 😊\nLe technicien est passé : la machine est 100% opérationnelle et à nouveau prête à vous accueillir ! 📸✨",
+    "keywords": [
+      "réparé",
+      "fonctionne",
+      "résolu",
+      "ok"
+    ]
+  },
+  {
+    "id": "tech_magasin",
+    "category": "🛠️ Technique & Pannes",
+    "title": "Machine rachetée (Propriété du Magasin)",
+    "content": "Cette cabine spécifique appartient directement au gérant du magasin supermarché (elle a été achetée).\nL'enseigne est donc la seule responsable de son entretien papier et des remboursements. Je vous invite à vous présenter à leur accueil principal ! 🤝",
+    "keywords": [
+      "supermarché",
+      "magasin",
+      "propriété",
+      "indépendant",
+      "revendue",
+      "entretien"
+    ]
+  },
+  {
+    "id": "tech_hygiene",
+    "category": "🛠️ Technique & Pannes",
+    "title": "Rappel sur la propreté des cabines",
+    "content": "L'hygiène est capitale pour nous, et bien que nos techniciens nettoient complètement la cabine chaque mois, son état quotidien dépend massivement du civisme des précédents utilisateurs. 🧼\nNous venons de notifier le technicien local pour une repasse rapide.",
+    "keywords": [
+      "sale",
+      "propre",
+      "hygiène",
+      "nettoyage",
+      "poubelle",
+      "siège"
+    ]
+  },
+  {
+    "id": "close_contact",
+    "category": "✅ Conclusion",
+    "title": "Contacter l'Assistance sur d'autres canaux",
+    "content": "Pour un suivi immédiat, vous pouvez joindre la permanence téléphonique :\n📞 09.70.82.32.46 (Service Client Classique)\n📞 09.70.82.32.47 (Sujets Techniques 24h/24)\n\nL'équipe WhatsApp Photomaton® 📸",
+    "keywords": [
+      "téléphone",
+      "contact",
+      "joindre",
+      "clôture",
+      "fin",
+      "horaires",
+      "appel"
+    ]
+  },
+  {
+    "id": "close_merci",
+    "category": "✅ Conclusion",
+    "title": "Remerciement pour compliment",
+    "content": "Quel gentil message ! 😊 \nVotre retour très positif me touche énormément au sein de l'équipe Photomaton®. Votre satisfaction est notre moteur ! 🚀\nAu plaisir ! ✨",
+    "keywords": [
+      "merci",
+      "bravo",
+      "positif",
+      "satisfait",
+      "super"
+    ]
+  }
+]

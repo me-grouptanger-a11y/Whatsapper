@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photomaton WhatsApp - Réponses Rapides</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="ph-fill ph-whatsapp-logo"></i>
+                </div>
+                <div>
+                    <h1>CS Photomaton</h1>
+                    <p>Réponses Rapides</p>
+                </div>
+            </div>
+
+            <nav class="categories-nav">
+                <h3>Filtres & Catégories</h3>
+                <div class="categories-list" id="categoryContainer">
+                    <button class="category-btn active" data-category="all">
+                        <i class="ph ph-squares-four"></i>
+                        <span>Toutes les réponses</span>
+                    </button>
+                    <!-- Categories will be injected here via JS -->
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="adminBtn" class="admin-btn">
+                    <i class="ph ph-gear"></i> Administration
+                </button>
+                <button id="logoutBtn" class="admin-btn" style="display:none; margin-top:10px; color:#E53E3E; border-color:#FED7D7; background:#FFF5F5;">
+                    <i class="ph ph-sign-out"></i> Déconnexion
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="search-container">
+                    <i class="ph ph-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Rechercher par mot-clé (ex: remboursement, débit, identité...)">
+                    <button class="clear-btn" id="clearSearch">
+                        <i class="ph ph-x-circle-fill"></i>
+                    </button>
+                </div>
+            </header>
+
+            <section class="results-area">
+                <div class="results-header">
+                    <h2 id="resultsCount">Chargement de la base Supabase...</h2>
+                </div>
+                <div class="cards-grid" id="cardsContainer">
+                    <!-- Response cards will be injected here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Connexion Admin</h2>
+                <button class="close-login-modal"><i class="ph ph-x"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label>E-mail (Administrateur)</label>
+                        <input type="email" id="loginEmail" placeholder="admin@photomaton.fr" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mot de passe</label>
+                        <input type="password" id="loginPassword" placeholder="••••••••" required>
+                    </div>
+                    <div id="loginError" style="display:none; color:#E53E3E; font-size:13px; margin-bottom:15px; padding:10px; background:#FED7D7; border-radius:8px;"></div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel close-login-modal">Annuler</button>
+                        <button type="submit" class="btn-save" id="loginSubmitBtn">Se connecter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Modal -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Administration des Réponses</h2>
+                <button class="close-modal"><i class="ph ph-x"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="admin-actions">
+                    <button id="addResponseBtn" class="primary-btn"><i class="ph ph-plus"></i> Nouvelle réponse</button>
+                </div>
+                <div class="table-container">
+                    <table id="adminTable">
+                        <thead>
+                            <tr>
+                                <th>Catégorie</th>
+                                <th>Titre</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Form Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2 id="editModalTitle">Éditer la réponse</h2>
+                <button class="close-edit-modal"><i class="ph ph-x"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm">
+                    <input type="hidden" id="editId">
+                    <div class="form-group">
+                        <label>Catégorie</label>
+                        <input type="text" id="editCategory" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Titre</label>
+                        <input type="text" id="editTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mots-clés (séparés par virgule)</label>
+                        <input type="text" id="editKeywords" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Contenu de la réponse</label>
+                        <textarea id="editContent" rows="6" required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-cancel close-edit-modal">Annuler</button>
+                        <button type="submit" class="btn-save" id="editSubmitBtn">Enregistrer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="ph-fill ph-check-circle"></i>
+            <span id="toastMsg">Action réussie !</span>
+        </div>
+    </div>
+
+    <!-- Supabase SDK & Configuration -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js" onerror="console.warn('config.js introuvable. Assurez-vous de le créer pour Supabase.')"></script>
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>

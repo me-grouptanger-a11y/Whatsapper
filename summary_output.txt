@@ -1,0 +1,110 @@
+ANALYSIS RESULTS:
+
+--- PDF: Document sans titre (1).pdf ---
+Présentation :  
+Bonjour ! 👋 
+Je suis [Votre Prénom] de l’équipe WhatsApp Photomaton®. 📸 
+Je suis ravi de vous accompagner aujourd'hui.  
+—----------------------------------------------------------------------------------------------------------------------------
+-------------- 
+Contact SC: 
+Notre Service Client est à votre entière disposition pour vous accompagner ! 😊 
+Vous pouvez nous joindre directement par téléphone : 
+📞 09.70.82.32.46  
+📅 7j/7, de 8h à 20h 
+C'est le moyen le plus rapide pour obtenir une prise en charge personnalisée de votre 
+demande. 🚀 
+En espérant avoir pu vous aider, 
+L'équipe WhatsApp Photomaton® 📸 
+—----------------------------------------------------------------------------------------------------------------------------
+-------------- 
+Inquiétude sur le débit (Non-impression) 💳 
+Bonjour, 
+Nous sommes sincèrement navrés d'apprendre que vous avez rencontré un incident avec l'une 
+de nos cabines Photomaton®. 😕 
+Rassurez-vous : en cas de non-impression de vos photos, aucun débit n'est effectué sur votre 
+compte bancaire. La transaction est automatiquement annulée. 
+N'hésitez pas à nous solliciter si vous avez d'autres questions. ✨ 
+L'équipe WhatsApp Photomaton® 📸 
+
+—----------------------------------------------------------------------------------------------------------------------------
+-------------- 
+Précisions sur le rendu de monnaie 🪙 
+Bonjour, 
+Nous regrettons sincèrement que votre expérience n'ait pas été à la hauteur de vos attentes. 😕 
+Pour information, nos machines Photomaton® indiquent (via un affichage dédié) qu'elles ne 
+rendent pas la monnaie. 
+Afin d'éviter tout désagrément lors de vos prochaines utilisations, nous vous recommandons : 
+✅ De préparer l'appoint (le montant exact). ✅ De ne procéder au paiement qu'au moment où 
+la machine vous le demande explicitement. 
+Nous espérons que ces précisions vous seront utiles pour vos prochains passages. ✨ 
+L'équipe WhatsApp Photomaton® 📸 
+ 
+—-
+...[truncated]
+
+--- PDF: Document sans titre.pdf ---
+1. Accueil & Identification 👤 
+Utilisez ces messages pour engager la conversation ou obtenir des infos clés. 
+Présentation Initiale "Bonjour ! 👋 Je suis [Votre Prénom] de l’équipe WhatsApp 
+Photomaton®. Je prends connaissance de votre situation et je vais vous 
+accompagner pour résoudre ce point. 📸" 
+Demande de Numéro de Machine "Pourriez-vous me transmettre le numéro à 4 
+ou 6 chiffres inscrit sur la cabine ? Cela me permettra d'interroger l'historique 
+technique à distance et de vérifier l'état de l'équipement. 🛠️" 
+Demande de Preuve Visuelle "Afin de mieux visualiser le défaut (impression, 
+cadrage, ou qualité), n’hésitez pas à m’envoyer une photo de votre planche de 
+photos directement ici. 📱" 
+2. Incidents de Paiement & Remboursements 💳 
+Section critique pour rassurer sur les flux bancaires. 
+🛡️ L'Empreinte Bancaire (Non-débit) 
+"Rassurez-vous : en cas de non-impression, aucun débit réel n'est effectué. Ce que vous voyez 
+est une pré-autorisation temporaire. Cette ligne s'annulera d'elle-même sous 5 jours ouvrés et 
+ne figurera pas sur votre relevé final. ✅" 
+💰 Procédure de Remboursement (Standard) 
+"Nous sommes navrés pour ce contretemps. Pour obtenir votre remboursement en toute 
+sécurité, voici les 3 étapes à suivre : 1️⃣ Accédez au formulaire : 👉 [Lien du Formulaire] 🔗 2️⃣ 
+Complétez les infos : Nature du problème, heure et preuve de paiement (ticket ou photo du 
+débit). 3️⃣ Validation : Nos équipes analyseront votre dossier sous peu. ⚙️" 
+🏦 Demande de RIB Sécurisée 
+"Pour traiter votre indemnisation, nous ne pouvons pas recueillir vos coordonnées bancaires 
+directement par message pour des raisons de sécurité. 🛡️ Merci de remplir ce formulaire officiel 
+pour nous transmettre votre IBAN/BIC : 👉 [Lien Formulaire Sécurisé] 🔒" 
+❌ Refus de Remboursement (Analyse Technique) 
+
+"Après analyse approfondie de l'historique de l'appareil à l'heure signalée, aucune anomalie 
+technique n'a été détectée. La machine était pleinement op
+...[truncated]
+
+--- ZIP: [Fiche Connaissance - Photomaton]-20260327T015318Z-1-001.zip ---
+
+  --- DOCX: [Fiche Connaissance - Photomaton]/[Fiche Connaissance 023] - La Durée Moyenne d_une Séance Photo.docx ---
+[Fiche Connaissance 023] - La Durée Moyenne d'une Séance Photo
+1. Objectif du document Fournir une estimation de temps réaliste pour une session Photomaton® et connaître les facteurs qui influencent cette durée, afin de gérer les attentes des clients pressés.
+2. Contexte Client Typique
+"Je suis pressé, combien de temps ça prend pour faire des photos ?"
+"Est-ce que j'ai le temps pendant ma pause déjeuner ?"
+3. Informations Clés à Maîtriser Il faut donner une moyenne crédible tout en expliquant pourquoi ce temps peut varier.
+La Durée Moyenne de Référence :
+Une session complète, de l'entrée dans la cabine à la récupération de la planche imprimée, dure en moyenne environ 5 minutes.
+C'est un chiffre facile à retenir et qui reflète bien la réalité pour un usage standard. Il faut présenter ce chiffre comme une moyenne et non un temps garanti.
+Les Facteurs qui Influencent la Durée :
+Le type de photos : Réaliser une photo d'identité officielle est généralement plus rapide que de naviguer dans les menus des photos Fun pour choisir des décors et des filtres.
+Le nombre de personnes : Une photo de groupe demande plus de temps pour que tout le monde soit bien positionné et ait la bonne expression.
+Le nombre de tentatives utilisées : Le client dispose de 3 essais. S'il réussit du premier coup, la session est plus courte que s'il utilise ses 3 tentatives.
+La familiarité avec l'interface : Un habitué naviguera plus vite qu'un client qui découvre la cabine pour la première fois.
+Le moyen de paiement : Un paiement par carte sans contact est quasi instantané, tandis que chercher et insérer des pièces et billets peut prendre plus de temps.
+4. Procédure pour l'Agent / Argumentaire Client
+Donner la moyenne comme référence : "C'est un processus très rapide. En général, il faut compter environ 5 minutes pour la totalité de l'opération."
+Ajouter la nuance si nécessaire : "Bien sûr, ce temps peut varier un tout petit peu. Cela dépend si vous faites une simple photo d'identité ou si vous prenez le temps de choisir des options créatives, et du nombre d'essais dont vous aurez besoin. Mais nos cabines sont conçues pour être très simples et efficaces."
+Argumentaire pour un client pressé : "Si vous êtes pressé, pour une photo d'identité standard, 5 minutes est une très bonne estimation."
+5. L'Essentiel à Retenir
+
+  ...[truncated]
+
+  --- DOCX: [Fiche Connaissance - Photomaton]/[Fiche Connaissance 021] - Le Service d_Impression depuis un Smartphone (_Print to Print_).docx ---
+[Fiche Connaissance 021] - Le Service d'Impression depuis un Smartphone ("Print to Print")
+1. Objectif du document Maîtriser les caractéristiques du service "Print to Print" pour expliquer aux clients comment imprimer les photos de leur téléphone, en gérant correctement les attentes quant à sa disponibilité.
+2. Contexte
+...[zip truncated]
+
